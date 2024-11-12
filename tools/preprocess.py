@@ -1,37 +1,57 @@
 """
 ## Summary
-
+This script provides functions for preprocessing Pokémon-related data, including organizing images 
+by type for classification tasks, splitting datasets, and loading images with transformations for KNN and CNN models.
 """
+
 # ------------------------------------------------------------------------------------- #
 # Imports
 # ------------------------------------------------------------------------------------- #
 
 # Standard library imports
 import os
-import shutil
+import shutil  # For file operations like copying images
 
 # Third-party imports
-import pandas as pd
-from PIL import Image
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from torch.utils.data import DataLoader
-from torchvision import datasets, transforms
+import pandas as pd  # Data manipulation and analysis library
+from PIL import Image  # Image processing library
+import numpy as np  # Array manipulation
+from sklearn.model_selection import train_test_split  # Dataset splitting
+from sklearn.preprocessing import LabelEncoder  # Label encoding
+from torch.utils.data import DataLoader  # Data loading for PyTorch
+from torchvision import datasets, transforms  # Image transformations
 
 # ------------------------------------------------------------------------------------- #
 # Functions
 # ------------------------------------------------------------------------------------- #
 
 def main_type_count(csv_path: str):
+    """
+    Calculate and return a sorted list of unique Pokémon types in the dataset.
+    
+    Args:
+        csv_path (str): Path to the CSV file containing Pokémon data.
+        
+    Returns:
+        list: Sorted list of unique Pokémon types found in the "Type 1" column.
+    """
     # Load the dataset
     df = pd.read_csv(csv_path)
-    # Distribution of Pokémon types
+    # Extract unique Pokémon types from "Type 1" column
     types = df['Type 1'].unique()
     types_list = types.tolist()
     return sorted(types_list)
 
 def preprocess_classification(csv_path: str):
+    """
+    Organize images by type into 'train', 'val', and 'test' folders for classification tasks.
+    
+    Args:
+        csv_path (str): Path to the CSV file containing Pokémon data.
+        
+    Returns:
+        None: Organizes images into folders within the "kaggle/pokemon_by_type1" directory.
+    """
     # Load your data
     df = pd.read_csv(csv_path)
 
@@ -62,6 +82,15 @@ def preprocess_classification(csv_path: str):
     print("Images have been organized by Type 1 into train, val, and test directories.")
     
 def split_csv_data(csv_path: str):
+    """
+    Split a dataset into train, validation, and test sets.
+    
+    Args:
+        csv_path (str): Path to the CSV file containing data.
+        
+    Returns:
+        tuple: DataFrames for train, validation, and test sets.
+    """
     # Load your data
     df = pd.read_csv(csv_path)
 
@@ -71,8 +100,18 @@ def split_csv_data(csv_path: str):
 
     return train_df, val_df, test_df
 
-# Function to load images and labels from a directory
 def preprocess_image_knn(train_path: str, val_path: str, test_path: str):
+    """
+    Preprocess images for KNN model by resizing and flattening them, then encoding labels.
+    
+    Args:
+        train_path (str): Path to the training images directory.
+        val_path (str): Path to the validation images directory.
+        test_path (str): Path to the test images directory.
+        
+    Returns:
+        tuple: Arrays of images and labels for train, validation, and test sets, along with the label encoder.
+    """
     # Function to load images and labels from a directory
     def load_images_from_directory(dataset_path, image_size=(64, 64)):
         images = []
@@ -84,9 +123,9 @@ def preprocess_image_knn(train_path: str, val_path: str, test_path: str):
                     image_path = os.path.join(label_path, image_file)
                     try:
                         image = Image.open(image_path)
-                        # image.convert("L")  # Convert to grayscale
-                        image = image.resize(image_size)  # Resize image
-                        image_data = np.array(image).flatten()  # Flatten image to 1D
+                        # Resize and flatten image data
+                        image = image.resize(image_size)  
+                        image_data = np.array(image).flatten()  # Convert image to 1D array
                         images.append(image_data)
                         labels.append(label)
                     except Exception as e:
@@ -107,11 +146,22 @@ def preprocess_image_knn(train_path: str, val_path: str, test_path: str):
     return X_train, y_train_encoded, X_val, y_val_encoded, X_test, y_test_encoded, label_encoder
 
 def preprocess_image_cnn(train_path: str, val_path: str, test_path: str):
-    # Image transformations
+    """
+    Preprocess images for CNN model by applying transformations and loading data into PyTorch DataLoader.
+    
+    Args:
+        train_path (str): Path to the training images directory.
+        val_path (str): Path to the validation images directory.
+        test_path (str): Path to the test images directory.
+        
+    Returns:
+        tuple: DataLoader objects for train, validation, and test sets, along with the number of classes.
+    """
+    # Image transformations to resize, normalize, and convert to tensors
     transform = transforms.Compose([
         transforms.Resize((64, 64)),
         transforms.ToTensor(),
-        transforms.Normalize((0.5,), (0.5,))  # Normalize grayscale images, adjust for RGB if needed
+        transforms.Normalize((0.5,), (0.5,))  # Adjust normalization for RGB if necessary
     ])
     
     # Load datasets
@@ -128,17 +178,27 @@ def preprocess_image_cnn(train_path: str, val_path: str, test_path: str):
     return train_loader, val_loader, test_loader, num_classes
 
 def image_size(image_path: str):
-    # Get the size of the image
+    """
+    Print the size (width, height) of a specified image.
+    
+    Args:
+        image_path (str): Path to the image file.
+    """
     image = Image.open(image_path)
     print(image.size)
- 
+
 # ------------------------------------------------------------------------------------- #
 # Main
 # ------------------------------------------------------------------------------------- #
     
 if __name__ == "__main__":
+    # Display the unique Pokémon types in the dataset
     types_list = main_type_count("kaggle/pokedex.csv")
     for type in types_list:
         print(f"{types_list.index(type)}:{type}")
+    
+    # Organize images into train, val, and test directories by Type 1
     preprocess_classification("kaggle/pokedex.csv")
+    
+    # Print the size of a sample image
     image_size("kaggle/pokemon_by_type1/test/Bug/18.png")
