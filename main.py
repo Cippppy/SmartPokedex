@@ -14,6 +14,7 @@ on Pokémon-related data, specifically using PyTorch for deep learning tasks.
 import torch.nn as nn  # Neural network modules in PyTorch
 import torch.optim as optim  # Optimization algorithms in PyTorch
 import pandas as pd  # Data manipulation and analysis library
+from ultralytics import YOLO
 
 # Local imports - Custom functions and models for specific tasks
 from tools.models import CNNClassifier  # CNN model class for image classification tasks
@@ -106,19 +107,19 @@ if __name__ == "__main__":
     """
     Entry point for the script: load data, preprocess, and execute various training/evaluation routines.
     """
-    csv_path = "kaggle/pokedex.csv"  # Path to main CSV data file
-    # Split the CSV data into training, validation, and test DataFrames
-    train_df, val_df, test_df = split_csv_data(csv_path)
+    # csv_path = "kaggle/pokedex.csv"  # Path to main CSV data file
+    # # Split the CSV data into training, validation, and test DataFrames
+    # train_df, val_df, test_df = split_csv_data(csv_path)
     
-    # Train and evaluate the basic regression model
-    mse, r2 = basic_regression(train_df, test_df)
-    print(f"Mean Squared Error: {mse}")
-    print(f"R^2 Score: {r2}")
+    # # Train and evaluate the basic regression model
+    # mse, r2 = basic_regression(train_df, test_df)
+    # print(f"Mean Squared Error: {mse}")
+    # print(f"R^2 Score: {r2}")
     
-    # Train and evaluate the optimized regression model
-    mse, r2 = optimized_regression(train_df, val_df, test_df)
-    print(f"Mean Squared Error: {mse}")
-    print(f"R^2 Score: {r2}")
+    # # Train and evaluate the optimized regression model
+    # mse, r2 = optimized_regression(train_df, val_df, test_df)
+    # print(f"Mean Squared Error: {mse}")
+    # print(f"R^2 Score: {r2}")
     
     # Paths to image data for KNN and CNN models
     image_train_path = "kaggle/pokemon_by_type1/train/"
@@ -130,3 +131,10 @@ if __name__ == "__main__":
     
     # Train and evaluate CNN model on image data
     image_cnn(image_train_path, image_val_path, image_test_path)
+    
+    model = YOLO("runs/classify/train3/weights/best.pt")
+    metrics = model.val("kaggle/pokemon_by_type1/test")
+    print(metrics.box.map)  # map50-95
+    print(metrics.box.map50)  # map50
+    print(metrics.box.map75)  # map75
+    print(metrics.box.maps)  # a list contains map50-95 of each category
