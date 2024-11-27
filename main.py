@@ -122,9 +122,9 @@ if __name__ == "__main__":
     # print(f"R^2 Score: {r2}")
     
     # Paths to image data for KNN and CNN models
-    image_train_path = "kaggle/pokemon_by_type1/train/"
-    image_val_path = "kaggle/pokemon_by_type1/val/"
-    image_test_path = "kaggle/pokemon_by_type1/test/"
+    image_train_path = "data/combined_by_type1/train/"
+    image_val_path = "data/combined_by_type1/val/"
+    image_test_path = "data/combined_by_type1/test/"
     
     # Train and evaluate KNN model on image data
     image_knn(3, image_train_path, image_val_path, image_test_path)
@@ -132,9 +132,9 @@ if __name__ == "__main__":
     # Train and evaluate CNN model on image data
     image_cnn(image_train_path, image_val_path, image_test_path)
     
-    model = YOLO("runs/classify/train3/weights/best.pt")
-    metrics = model.val("kaggle/pokemon_by_type1/test")
-    print(metrics.box.map)  # map50-95
-    print(metrics.box.map50)  # map50
-    print(metrics.box.map75)  # map75
-    print(metrics.box.maps)  # a list contains map50-95 of each category
+    # model = YOLO("runs/classify/train3/weights/best.pt")
+    # metrics = model.val("kaggle/pokemon_by_type1/test")
+    # print(metrics.box.map)  # map50-95
+    # print(metrics.box.map50)  # map50
+    # print(metrics.box.map75)  # map75
+    # print(metrics.box.maps)  # a list contains map50-95 of each category

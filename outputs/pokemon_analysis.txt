@@ -1,0 +1,22 @@
+Total number of Pokémon: 2430
+
+Number of Pokémon by Type 1:
+
+Water: 300
+Normal: 268
+Grass: 226
+Bug: 182
+Psychic: 164
+Fire: 152
+Electric: 148
+Rock: 136
+Dark: 112
+Fighting: 100
+Dragon: 98
+Poison: 98
+Ground: 94
+Ghost: 94
+Steel: 90
+Ice: 86
+Fairy: 62
+Flying: 20

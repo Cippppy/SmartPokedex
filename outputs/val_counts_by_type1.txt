@@ -1,0 +1,22 @@
+Total number of images: 1529
+
+Number of images by Type 1:
+
+Bug: 130
+Dark: 62
+Dragon: 52
+Electric: 80
+Fairy: 31
+Fighting: 55
+Fire: 98
+Flying: 5
+Ghost: 46
+Grass: 148
+Ground: 64
+Ice: 50
+Normal: 196
+Poison: 61
+Psychic: 93
+Rock: 85
+Steel: 49
+Water: 224

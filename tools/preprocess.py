@@ -11,6 +11,7 @@ by type for classification tasks, splitting datasets, and loading images with tr
 # Standard library imports
 import os
 import shutil  # For file operations like copying images
+import random
 
 # Third-party imports
 import pandas as pd  # Data manipulation and analysis library
@@ -80,6 +81,108 @@ def preprocess_classification(csv_path: str):
                 shutil.copy(f"kaggle/{image_path}", dest_path)
 
     print("Images have been organized by Type 1 into train, val, and test directories.")
+    
+def organize_pokemon_images_by_type(csv_path, source_paths, destination_path):
+    """
+    Organizes Pokémon images into directories grouped by their primary type (Type1).
+    
+    Args:
+        csv_path (str): Path to the CSV file containing Pokémon data.
+        source_paths (list): List of source directories to search for Pokémon images.
+        destination_path (str): Path to the destination directory where images will be organized.
+
+    Returns:
+        None
+    """
+    # Create destination directory if it doesn't exist
+    os.makedirs(destination_path, exist_ok=True)
+
+    # Read CSV
+    df = pd.read_csv(csv_path)
+
+    # Extract Type1 from the Type column (e.g., split by ',' and take the first type)
+    df['Type1'] = df['Type'].apply(lambda x: x.split(',')[0].strip() if isinstance(x, str) else "Unknown")
+
+    # Iterate over the DataFrame
+    for _, row in df.iterrows():
+        pokemon = row['Pokemon']
+        type1 = row['Type1']
+        
+        # Create type1 directory in the destination path
+        type1_path = os.path.join(destination_path, "train", type1)
+        os.makedirs(type1_path, exist_ok=True)
+        
+        # Locate images for the current Pokémon in source folders
+        for source_path in source_paths:
+            pokemon_path = os.path.join(source_path, pokemon)
+            if os.path.exists(pokemon_path):
+                # Copy all files from the Pokémon directory to the new type1 directory
+                for root, _, files in os.walk(pokemon_path):
+                    for file in files:
+                        src_file = os.path.join(root, file)
+                        dest_file = os.path.join(type1_path, file)
+                        shutil.copy(src_file, dest_file)
+
+    print("Images have been grouped by Type1.")
+    
+def split_dataset_by_type1(images_root_path, output_path, train_ratio=0.8, val_ratio=0.1, test_ratio=0.1):
+    """
+    Splits images into train, val, and test sets for each Type 1, maintaining specified ratios.
+
+    Args:
+        images_root_path (str): Path where all images are currently stored (e.g., `train` folder).
+        output_path (str): Path to the root directory for the split dataset.
+        train_ratio (float): Proportion of images to include in the training set.
+        val_ratio (float): Proportion of images to include in the validation set.
+        test_ratio (float): Proportion of images to include in the test set.
+
+    Returns:
+        None
+    """
+    # Create output directories
+    train_path = os.path.join(output_path, "train")
+    val_path = os.path.join(output_path, "val")
+    test_path = os.path.join(output_path, "test")
+
+    for dir_path in [train_path, val_path, test_path]:
+        os.makedirs(dir_path, exist_ok=True)
+
+    # Process each Type 1
+    for type1_dir in os.listdir(images_root_path):
+        type1_path = os.path.join(images_root_path, type1_dir)
+        if not os.path.isdir(type1_path):
+            continue
+
+        # Collect all images for the current Type 1
+        images = [file for file in os.listdir(type1_path) if os.path.isfile(os.path.join(type1_path, file))]
+        random.shuffle(images)
+
+        # Calculate split sizes
+        total_images = len(images)
+        train_size = int(total_images * train_ratio)
+        val_size = int(total_images * val_ratio)
+
+        # Split the images
+        train_images = images[:train_size]
+        val_images = images[train_size:train_size + val_size]
+        test_images = images[train_size + val_size:]
+
+        # Helper function to copy files
+        def copy_files(image_list, destination_folder):
+            dest_dir = os.path.join(destination_folder, type1_dir)
+            os.makedirs(dest_dir, exist_ok=True)
+            for image in image_list:
+                shutil.copy(os.path.join(type1_path, image), os.path.join(dest_dir, image))
+
+        # Copy files to respective folders
+        copy_files(train_images, train_path)
+        copy_files(val_images, val_path)
+        copy_files(test_images, test_path)
+
+    print("Dataset split complete.")
+    print(f"Train set: {train_path}")
+    print(f"Validation set: {val_path}")
+    print(f"Test set: {test_path}")
     
 def split_csv_data(csv_path: str):
     """
@@ -192,13 +295,20 @@ def image_size(image_path: str):
 # ------------------------------------------------------------------------------------- #
     
 if __name__ == "__main__":
-    # Display the unique Pokémon types in the dataset
-    types_list = main_type_count("kaggle/pokedex.csv")
-    for type in types_list:
-        print(f"{types_list.index(type)}:{type}")
+    # # Display the unique Pokémon types in the dataset
+    # types_list = main_type_count("kaggle/pokedex.csv")
+    # for type in types_list:
+    #     print(f"{types_list.index(type)}:{type}")
     
-    # Organize images into train, val, and test directories by Type 1
-    preprocess_classification("kaggle/pokedex.csv")
+    # # Organize images into train, val, and test directories by Type 1
+    # preprocess_classification("kaggle/pokedex.csv")
     
-    # Print the size of a sample image
-    image_size("kaggle/pokemon_by_type1/test/Bug/18.png")
+    # # Print the size of a sample image
+    # image_size("kaggle/pokemon_by_type1/test/Bug/18.png")
+    
+    # organize_pokemon_images_by_type("data\pokemon_img_data\pokemonDB_dataset.csv", 
+    #                                 ["data\pokemon_img_data\Pokemon Dataset", "data\pokemon_img_data\Pokemon Images DB"], 
+    #                                 "data/pokemon_img_data/pokemon_by_type1")
+    images_root_path = "data/combined_by_type1/all"
+    output_path = "data/combined_by_type1"
+    split_dataset_by_type1(images_root_path, output_path)
