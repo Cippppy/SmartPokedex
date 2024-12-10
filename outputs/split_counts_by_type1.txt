@@ -1,0 +1,19 @@
+Split for Bug: Train=2254, Test=281, Val=283
+Split for Dark: Train=875, Test=109, Val=110
+Split for Dragon: Train=805, Test=100, Val=102
+Split for Electric: Train=1437, Test=179, Val=181
+Split for Fairy: Train=548, Test=68, Val=70
+Split for Fighting: Train=993, Test=124, Val=125
+Split for Fire: Train=1704, Test=213, Val=213
+Split for Flying: Train=87, Test=10, Val=12
+Split for Ghost: Train=783, Test=97, Val=99
+Split for Grass: Train=2488, Test=311, Val=311
+Split for Ground: Train=1140, Test=142, Val=144
+Split for Ice: Train=847, Test=105, Val=107
+Split for Normal: Train=3463, Test=432, Val=434
+Split for Poison: Train=1130, Test=141, Val=142
+Split for Psychic: Train=1584, Test=198, Val=199
+Split for Rock: Train=1465, Test=183, Val=184
+Split for Steel: Train=709, Test=88, Val=90
+Split for Water: Train=4172, Test=521, Val=523
+Dataset successfully split into train, test, and val sets.

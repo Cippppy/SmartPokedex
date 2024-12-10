@@ -1,0 +1,1194 @@
+#### Image Count by Type 1 ####
+
+Total number of images: 2374
+
+
+Number of images by Type 1:
+
+  Abomasnow: 2
+  Abra: 2
+  Absol: 2
+  Accelgor: 2
+  Aegislash (Blade Forme): 2
+  Aegislash (Shield Forme): 2
+  Aerodactyl: 2
+  Aggron: 2
+  Aipom: 2
+  Alakazam: 2
+  Alcremie: 2
+  Alolan Diglett: 2
+  Alolan Dugtrio: 2
+  Alolan Exeggutor: 2
+  Alolan Geodude: 2
+  Alolan Golem: 2
+  Alolan Graveler: 2
+  Alolan Grimer: 2
+  Alolan Marowak: 2
+  Alolan Meowth: 2
+  Alolan Muk: 2
+  Alolan Ninetales: 2
+  Alolan Persian: 2
+  Alolan Raichu: 2
+  Alolan Raticate: 2
+  Alolan Rattata: 2
+  Alolan Sandshrew: 2
+  Alolan Sandslash: 2
+  Alolan Vulpix: 2
+  Alomomola: 2
+  Altaria: 2
+  Amaura: 2
+  Ambipom: 2
+  Amoonguss: 2
+  Ampharos: 2
+  Annihilape: 2
+  Anorith: 2
+  Appletun: 2
+  Applin: 2
+  Araquanid: 2
+  Arbok: 2
+  Arboliva: 2
+  Arcanine: 2
+  Arceus: 2
+  Archaludon: 2
+  Archen: 2
+  Archeops: 2
+  Arctibax: 2
+  Arctovish: 2
+  Arctozolt: 2
+  Ariados: 2
+  Armaldo: 2
+  Armarouge: 2
+  Aromatisse: 2
+  Aron: 2
+  Arrokuda: 2
+  Articuno: 2
+  Audino: 2
+  Aurorus: 2
+  Avalugg: 2
+  Axew: 2
+  Azelf: 2
+  Azumarill: 2
+  Azurill: 2
+  Bagon: 2
+  Baltoy: 2
+  Banette: 2
+  Barbaracle: 2
+  Barboach: 2
+  Barraskewda: 2
+  Basculegion (Female): 2
+  Basculegion (Male): 2
+  Basculin (Blue-Striped Form): 2
+  Basculin (Red-Striped Form): 2
+  Basculin (White-Striped Form): 2
+  Bastiodon: 2
+  Baxcalibur: 2
+  Bayleef: 2
+  Beartic: 2
+  Beautifly: 2
+  Beedrill: 2
+  Beheeyem: 2
+  Beldum: 2
+  Bellibolt: 2
+  Bellossom: 2
+  Bellsprout: 2
+  Bergmite: 2
+  Bewear: 2
+  Bibarel: 2
+  Bidoof: 2
+  Binacle: 2
+  Bisharp: 2
+  Blacephalon: 2
+  Blastoise: 2
+  Blaziken: 2
+  Blipbug: 2
+  Blissey: 2
+  Blitzle: 2
+  Boldore: 2
+  Boltund: 2
+  Bombirdier: 2
+  Bonsly: 2
+  Bouffalant: 2
+  Bounsweet: 2
+  Braixen: 2
+  Brambleghast: 2
+  Bramblin: 2
+  Braviary: 2
+  Breloom: 2
+  Brionne: 2
+  Bronzong: 2
+  Bronzor: 2
+  Brute Bonnet: 2
+  Bruxish: 2
+  Budew: 2
+  Buizel: 2
+  Bulbasaur: 2
+  Buneary: 2
+  Bunnelby: 2
+  Burmy (Plant Cloak): 2
+  Burmy (Sandy Cloak): 2
+  Burmy (Trash Cloak): 2
+  Butterfree: 2
+  Buzzwole: 2
+  Cacnea: 2
+  Cacturne: 2
+  Calyrex: 2
+  Calyrex (Ice Rider): 2
+  Calyrex (Shadow Rider): 2
+  Camerupt: 2
+  Capsakid: 2
+  Carbink: 2
+  Carkol: 2
+  Carnivine: 2
+  Carracosta: 2
+  Carvanha: 2
+  Cascoon: 2
+  Castform: 2
+  Caterpie: 2
+  Celebi: 2
+  Celesteela: 2
+  Centiskorch: 2
+  Ceruledge: 2
+  Cetitan: 2
+  Cetoddle: 2
+  Chandelure: 2
+  Chansey: 2
+  Charcadet: 2
+  Charizard: 2
+  Charjabug: 2
+  Charmander: 2
+  Charmeleon: 2
+  Chatot: 2
+  Cherrim: 2
+  Cherubi: 2
+  Chesnaught: 2
+  Chespin: 2
+  Chewtle: 2
+  Chi-Yu: 2
+  Chien-Pao: 2
+  Chikorita: 2
+  Chimchar: 2
+  Chimecho: 2
+  Chinchou: 2
+  Chingling: 2
+  Cinccino: 2
+  Cinderace: 2
+  Clamperl: 2
+  Clauncher: 2
+  Clawitzer: 2
+  Claydol: 2
+  Clefable: 2
+  Clefairy: 2
+  Cleffa: 2
+  Clobbopus: 2
+  Clodsire: 2
+  Cloyster: 2
+  Coalossal: 2
+  Cobalion: 2
+  Cofagrigus: 2
+  Combee: 2
+  Combusken: 2
+  Comfey: 2
+  Conkeldurr: 2
+  Copperajah: 2
+  Corphish: 2
+  Corsola: 2
+  Corviknight: 2
+  Corvisquire: 2
+  Cosmoem: 2
+  Cosmog: 2
+  Cottonee: 2
+  Crabominable: 2
+  Crabrawler: 2
+  Cradily: 2
+  Cramorant: 2
+  Cranidos: 2
+  Crawdaunt: 2
+  Cresselia: 2
+  Croagunk: 2
+  Crobat: 2
+  Crocalor: 2
+  Croconaw: 2
+  Crustle: 2
+  Cryogonal: 2
+  Cubchoo: 2
+  Cubone: 2
+  Cufant: 2
+  Cursola: 2
+  Cutiefly: 2
+  Cyclizar: 2
+  Cyndaquil: 2
+  Dachsbun: 2
+  Darkrai: 2
+  Darmanitan (Galarian Standard Mode): 2
+  Darmanitan (Galarian Zen Mode): 2
+  Darmanitan (Standard Mode): 2
+  Darmanitan (Zen Mode): 2
+  Dartrix: 2
+  Darumaka: 2
+  Decidueye: 2
+  Dedenne: 2
+  Deerling: 2
+  Deino: 2
+  Delcatty: 2
+  Delibird: 2
+  Delphox: 2
+  Deoxys (Attack Forme): 2
+  Deoxys (Defense Forme): 2
+  Deoxys (Normal Forme): 2
+  Deoxys (Speed Forme): 2
+  Dewgong: 2
+  Dewott: 2
+  Dewpider: 2
+  Dhelmise: 2
+  Dialga: 2
+  Dialga (Origin Forme): 2
+  Diancie: 2
+  Diggersby: 2
+  Diglett: 2
+  Dipplin: 2
+  Ditto: 2
+  Dodrio: 2
+  Doduo: 2
+  Dolliv: 2
+  Dondozo: 2
+  Donphan: 2
+  Dottler: 2
+  Doublade: 2
+  Dracovish: 2
+  Dracozolt: 2
+  Dragalge: 2
+  Dragapult: 2
+  Dragonair: 2
+  Dragonite: 2
+  Drakloak: 2
+  Drampa: 2
+  Drapion: 2
+  Dratini: 2
+  Drednaw: 2
+  Dreepy: 2
+  Drifblim: 2
+  Drifloon: 2
+  Drilbur: 2
+  Drizzile: 2
+  Drowzee: 2
+  Druddigon: 2
+  Dubwool: 2
+  Ducklett: 2
+  Dudunsparce (Two-Segment Form): 2
+  Dugtrio: 2
+  Dunsparce: 2
+  Duosion: 2
+  Duraludon: 2
+  Durant: 2
+  Dusclops: 2
+  Dusknoir: 2
+  Duskull: 2
+  Dustox: 2
+  Dwebble: 2
+  Eelektrik: 2
+  Eelektross: 2
+  Eevee: 2
+  Eevee (Partner Eevee): 2
+  Eiscue (Ice Face): 2
+  Eiscue (Noice Face): 2
+  Ekans: 2
+  Eldegoss: 2
+  Electabuzz: 2
+  Electivire: 2
+  Electrike: 2
+  Electrode: 2
+  Elekid: 2
+  Elgyem: 2
+  Emboar: 2
+  Emolga: 2
+  Empoleon: 2
+  Enamorus (Incarnate Forme): 2
+  Enamorus (Therian Forme): 2
+  Entei: 2
+  Escavalier: 2
+  Espathra: 2
+  Espeon: 2
+  Espurr: 2
+  Eternatus: 2
+  Excadrill: 2
+  Exeggcute: 2
+  Exeggutor: 2
+  Exploud: 2
+  Falinks: 2
+  Farfetch_d: 2
+  Farigiraf: 2
+  Fearow: 2
+  Feebas: 2
+  Fennekin: 2
+  Feraligatr: 2
+  Ferroseed: 2
+  Ferrothorn: 2
+  Fezandipiti: 2
+  Fidough: 2
+  Finizen: 2
+  Finneon: 2
+  Flaaffy: 2
+  Flabébé: 2
+  Flamigo: 2
+  Flapple: 2
+  Flareon: 2
+  Fletchinder: 2
+  Fletchling: 2
+  Flittle: 2
+  Floatzel: 2
+  Floette: 2
+  Floragato: 2
+  Florges: 2
+  Flutter Mane: 2
+  Flygon: 2
+  Fomantis: 2
+  Foongus: 2
+  Forretress: 2
+  Fraxure: 2
+  Frigibax: 2
+  Frillish: 2
+  Froakie: 2
+  Frogadier: 2
+  Froslass: 2
+  Frosmoth: 2
+  Fuecoco: 2
+  Furfrou: 2
+  Furret: 2
+  Gabite: 2
+  Galarian Articuno: 2
+  Galarian Corsola: 2
+  Galarian Darumaka: 2
+  Galarian Farfetch_d: 2
+  Galarian Linoone: 2
+  Galarian Meowth: 2
+  Galarian Moltres: 2
+  Galarian Mr. Mime: 2
+  Galarian Ponyta: 2
+  Galarian Rapidash: 2
+  Galarian Slowbro: 2
+  Galarian Slowking: 2
+  Galarian Slowpoke: 2
+  Galarian Stunfisk: 2
+  Galarian Weezing: 2
+  Galarian Yamask: 2
+  Galarian Zapdos: 2
+  Galarian Zigzagoon: 2
+  Gallade: 2
+  Galvantula: 2
+  Garbodor: 2
+  Garchomp: 2
+  Gardevoir: 2
+  Garganacl: 2
+  Gastly: 2
+  Gastrodon: 2
+  Genesect: 2
+  Gengar: 2
+  Geodude: 2
+  Gholdengo: 2
+  Gible: 2
+  Gigalith: 2
+  Gimmighoul (Chest Form): 2
+  Gimmighoul (Roaming Form): 2
+  Girafarig: 2
+  Giratina (Altered Forme): 2
+  Giratina (Origin Forme): 2
+  Glaceon: 2
+  Glalie: 2
+  Glameow: 2
+  Glastrier: 2
+  Gligar: 2
+  Glimmet: 2
+  Glimmora: 2
+  Gliscor: 2
+  Gloom: 2
+  Gogoat: 2
+  Golbat: 2
+  Goldeen: 2
+  Golduck: 2
+  Golem: 2
+  Golett: 2
+  Golisopod: 2
+  Golurk: 2
+  Goodra: 2
+  Goomy: 2
+  Gorebyss: 2
+  Gossifleur: 2
+  Gothita: 2
+  Gothitelle: 2
+  Gothorita: 2
+  Grafaiai: 2
+  Granbull: 2
+  Grapploct: 2
+  Graveler: 2
+  Great Tusk: 2
+  Greavard: 2
+  Greedent: 2
+  Greninja: 2
+  Greninja (Ash-Greninja): 2
+  Grimer: 2
+  Grimmsnarl: 2
+  Grookey: 2
+  Grotle: 2
+  Groudon: 2
+  Grovyle: 2
+  Growlithe: 2
+  Grubbin: 2
+  Grumpig: 2
+  Gulpin: 2
+  Gumshoos: 2
+  Gurdurr: 2
+  Guzzlord: 2
+  Gyarados: 2
+  Hakamo-o: 2
+  Happiny: 2
+  Hariyama: 2
+  Hatenna: 2
+  Hatterene: 2
+  Hattrem: 2
+  Haunter: 2
+  Hawlucha: 2
+  Haxorus: 2
+  Heatmor: 2
+  Heatran: 2
+  Heliolisk: 2
+  Helioptile: 2
+  Heracross: 2
+  Herdier: 2
+  Hippopotas: 2
+  Hippowdon: 2
+  Hisuian Arcanine: 2
+  Hisuian Avalugg: 2
+  Hisuian Braviary: 2
+  Hisuian Decidueye: 2
+  Hisuian Electrode: 2
+  Hisuian Goodra: 2
+  Hisuian Growlithe: 2
+  Hisuian Lilligant: 2
+  Hisuian Qwilfish: 2
+  Hisuian Samurott: 2
+  Hisuian Sliggoo: 2
+  Hisuian Sneasel: 2
+  Hisuian Typhlosion: 2
+  Hisuian Voltorb: 2
+  Hisuian Zoroark: 2
+  Hisuian Zorua: 2
+  Hitmonchan: 2
+  Hitmonlee: 2
+  Hitmontop: 2
+  Ho-oh: 2
+  Honchkrow: 2
+  Honedge: 2
+  Hoopa (Hoopa Confined): 2
+  Hoopa (Hoopa Unbound): 2
+  Hoothoot: 2
+  Hoppip: 2
+  Horsea: 2
+  Houndoom: 2
+  Houndour: 2
+  Houndstone: 2
+  Huntail: 2
+  Hydreigon: 2
+  Hypno: 2
+  Igglybuff: 2
+  Illumise: 2
+  Impidimp: 2
+  Incineroar: 2
+  Indeedee (Female): 2
+  Indeedee (Male): 2
+  Infernape: 2
+  Inkay: 2
+  Inteleon: 2
+  Iron Bundle: 2
+  Iron Crown: 2
+  Iron Hands: 2
+  Iron Jugulis: 2
+  Iron Leaves: 2
+  Iron Moth: 2
+  Iron Thorns: 2
+  Iron Treads: 2
+  Iron Valiant: 2
+  Ivysaur: 2
+  Jangmo-o: 2
+  Jellicent: 2
+  Jigglypuff: 2
+  Jirachi: 2
+  Jolteon: 2
+  Joltik: 2
+  Jumpluff: 2
+  Jynx: 2
+  Kabuto: 2
+  Kabutops: 2
+  Kadabra: 2
+  Kakuna: 2
+  Kangaskhan: 2
+  Karrablast: 2
+  Kartana: 2
+  Kecleon: 2
+  Keldeo (Ordinary Form): 2
+  Keldeo (Resolute Form): 2
+  Kilowattrel: 2
+  Kingambit: 2
+  Kingdra: 2
+  Kingler: 2
+  Kirlia: 2
+  Klang: 2
+  Klawf: 2
+  Kleavor: 2
+  Klefki: 2
+  Klink: 2
+  Klinklang: 2
+  Koffing: 2
+  Komala: 2
+  Kommo-o: 2
+  Koraidon: 2
+  Krabby: 2
+  Kricketot: 2
+  Kricketune: 2
+  Krokorok: 2
+  Krookodile: 2
+  Kubfu: 2
+  Kyogre: 2
+  Kyurem: 2
+  Kyurem (Black Kyurem): 2
+  Kyurem (White Kyurem): 2
+  Lairon: 2
+  Lampent: 2
+  Landorus (Incarnate Forme): 2
+  Landorus (Therian Forme): 2
+  Lanturn: 2
+  Lapras: 2
+  Larvesta: 2
+  Larvitar: 2
+  Latias: 2
+  Latios: 2
+  Leafeon: 2
+  Leavanny: 2
+  Lechonk: 2
+  Ledian: 2
+  Ledyba: 2
+  Lickilicky: 2
+  Lickitung: 2
+  Liepard: 2
+  Lileep: 2
+  Lilligant: 2
+  Lillipup: 2
+  Linoone: 2
+  Litleo: 2
+  Litten: 2
+  Litwick: 2
+  Lokix: 2
+  Lombre: 2
+  Lopunny: 2
+  Lotad: 2
+  Loudred: 2
+  Lucario: 2
+  Ludicolo: 2
+  Lugia: 2
+  Lumineon: 2
+  Lunala: 2
+  Lunatone: 2
+  Lurantis: 2
+  Luvdisc: 2
+  Luxio: 2
+  Luxray: 2
+  Lycanroc (Dusk Form): 2
+  Lycanroc (Midday Form): 2
+  Lycanroc (Midnight Form): 2
+  Mabosstiff: 2
+  Machamp: 2
+  Machoke: 2
+  Machop: 2
+  Magby: 2
+  Magcargo: 2
+  Magearna: 2
+  Magikarp: 2
+  Magmar: 2
+  Magmortar: 2
+  Magnemite: 2
+  Magneton: 2
+  Magnezone: 2
+  Makuhita: 2
+  Malamar: 2
+  Mamoswine: 2
+  Manaphy: 2
+  Mandibuzz: 2
+  Manectric: 2
+  Mankey: 2
+  Mantine: 2
+  Mantyke: 2
+  Maractus: 2
+  Mareanie: 2
+  Mareep: 2
+  Marill: 2
+  Marowak: 2
+  Marshadow: 2
+  Marshtomp: 2
+  Maschiff: 2
+  Masquerain: 2
+  Maushold (Family of Four): 2
+  Mawile: 2
+  Medicham: 2
+  Meditite: 2
+  Mega Abomasnow: 2
+  Mega Absol: 2
+  Mega Aerodactyl: 2
+  Mega Aggron: 2
+  Mega Alakazam: 2
+  Mega Altaria: 2
+  Mega Ampharos: 2
+  Mega Audino: 2
+  Mega Banette: 2
+  Mega Beedrill: 2
+  Mega Blastoise: 2
+  Mega Blaziken: 2
+  Mega Camerupt: 2
+  Mega Charizard X: 2
+  Mega Charizard Y: 2
+  Mega Diancie: 2
+  Mega Gallade: 2
+  Mega Garchomp: 2
+  Mega Gardevoir: 2
+  Mega Gengar: 2
+  Mega Glalie: 2
+  Mega Gyarados: 2
+  Mega Heracross: 2
+  Mega Houndoom: 2
+  Mega Kangaskhan: 2
+  Mega Latias: 2
+  Mega Latios: 2
+  Mega Lopunny: 2
+  Mega Lucario: 2
+  Mega Manectric: 2
+  Mega Mawile: 2
+  Mega Medicham: 2
+  Mega Metagross: 2
+  Mega Mewtwo X: 2
+  Mega Mewtwo Y: 2
+  Mega Pidgeot: 2
+  Mega Pinsir: 2
+  Mega Rayquaza: 2
+  Mega Sableye: 2
+  Mega Salamence: 2
+  Mega Sceptile: 2
+  Mega Scizor: 2
+  Mega Sharpedo: 2
+  Mega Slowbro: 2
+  Mega Steelix: 2
+  Mega Swampert: 2
+  Mega Tyranitar: 2
+  Mega Venusaur: 2
+  Meganium: 2
+  Melmetal: 2
+  Meloetta (Aria Forme): 2
+  Meloetta (Pirouette Forme): 2
+  Meltan: 2
+  Meowscarada: 2
+  Meowstic (Female): 2
+  Meowstic (Male): 2
+  Meowth: 2
+  Mesprit: 2
+  Metagross: 2
+  Metang: 2
+  Metapod: 2
+  Mew: 2
+  Mewtwo: 2
+  Mienfoo: 2
+  Mienshao: 2
+  Mightyena: 2
+  Milcery: 2
+  Milotic: 2
+  Miltank: 2
+  Mime Jr: 2
+  Mimikyu: 2
+  Minccino: 2
+  Minior (Core Form): 2
+  Minior (Meteor Form): 2
+  Minun: 2
+  Miraidon: 2
+  Misdreavus: 2
+  Mismagius: 2
+  Moltres: 2
+  Monferno: 2
+  Morelull: 2
+  Morgrem: 2
+  Morpeko (Full Belly Mode): 2
+  Morpeko (Hangry Mode): 2
+  Mothim: 2
+  Mr. Mime: 2
+  Mr. Rime: 2
+  Mudbray: 2
+  Mudkip: 2
+  Mudsdale: 2
+  Muk: 2
+  Munchlax: 2
+  Munkidori: 2
+  Munna: 2
+  Murkrow: 2
+  Musharna: 2
+  Nacli: 2
+  Naclstack: 2
+  Naganadel: 2
+  Natu: 2
+  Necrozma: 2
+  Necrozma (Dawn Wings Necrozma): 2
+  Necrozma (Dusk Mane Necrozma): 2
+  Necrozma (Ultra Necrozma): 2
+  Nickit: 2
+  Nidoking: 2
+  Nidoqueen: 2
+  Nidoran#U2640: 2
+  Nidoran#U2642: 2
+  Nidorina: 2
+  Nidorino: 2
+  Nihilego: 2
+  Nincada: 2
+  Ninetales: 2
+  Ninjask: 2
+  Noctowl: 2
+  Noibat: 2
+  Noivern: 2
+  Nosepass: 2
+  Numel: 2
+  Nuzleaf: 2
+  Nymble: 2
+  Obstagoon: 2
+  Octillery: 2
+  Oddish: 2
+  Ogerpon (Teal Mask): 2
+  Oinkologne (Female): 2
+  Oinkologne (Male): 2
+  Okidogi: 2
+  Omanyte: 2
+  Omastar: 2
+  Onix: 2
+  Oranguru: 2
+  Orbeetle: 2
+  Oricorio (Baile Style): 2
+  Oricorio (Pa_u Style): 2
+  Oricorio (Pom-Pom Style): 2
+  Oricorio (Sensu Style): 2
+  Orthworm: 2
+  Oshawott: 2
+  Overqwil: 2
+  Pachirisu: 2
+  Palafin (Hero Form): 2
+  Palafin (Zero Form): 2
+  Paldean Wooper: 2
+  Palkia: 2
+  Palkia (Origin Forme): 2
+  Palossand: 2
+  Palpitoad: 2
+  Pancham: 2
+  Pangoro: 2
+  Panpour: 2
+  Pansage: 2
+  Pansear: 2
+  Paras: 2
+  Parasect: 2
+  Passimian: 2
+  Patrat: 2
+  Pawmi: 2
+  Pawmo: 2
+  Pawmot: 2
+  Pawniard: 2
+  Pecharunt: 2
+  Pelipper: 2
+  Perrserker: 2
+  Persian: 2
+  Petilil: 2
+  Phanpy: 2
+  Phantump: 2
+  Pheromosa: 2
+  Phione: 2
+  Pichu: 2
+  Pidgeot: 2
+  Pidgeotto: 2
+  Pidgey: 2
+  Pidove: 2
+  Pignite: 2
+  Pikachu: 2
+  Pikachu (Partner Pikachu): 2
+  Pikipek: 2
+  Piloswine: 2
+  Pincurchin: 2
+  Pineco: 2
+  Pinsir: 2
+  Piplup: 2
+  Plusle: 2
+  Poipole: 2
+  Politoed: 2
+  Poliwag: 2
+  Poliwhirl: 2
+  Poliwrath: 2
+  Poltchageist: 2
+  Polteageist: 2
+  Ponyta: 2
+  Poochyena: 2
+  Popplio: 2
+  Porygon: 2
+  Porygon-Z: 2
+  Porygon2: 2
+  Primal Groudon: 2
+  Primal Kyogre: 2
+  Primarina: 2
+  Primeape: 2
+  Prinplup: 2
+  Probopass: 2
+  Psyduck: 2
+  Pupitar: 2
+  Purrloin: 2
+  Purugly: 2
+  Pyroar: 2
+  Pyukumuku: 2
+  Quagsire: 2
+  Quaquaval: 2
+  Quaxly: 2
+  Quaxwell: 2
+  Quilava: 2
+  Quilladin: 2
+  Qwilfish: 2
+  Raboot: 2
+  Rabsca: 2
+  Raging Bolt: 2
+  Raichu: 2
+  Raikou: 2
+  Ralts: 2
+  Rampardos: 2
+  Rapidash: 2
+  Raticate: 2
+  Rattata: 2
+  Rayquaza: 2
+  Regice: 2
+  Regidrago: 2
+  Regieleki: 2
+  Regigigas: 2
+  Regirock: 2
+  Registeel: 2
+  Relicanth: 2
+  Rellor: 2
+  Remoraid: 2
+  Reshiram: 2
+  Reuniclus: 2
+  Revavroom: 2
+  Rhydon: 2
+  Rhyhorn: 2
+  Rhyperior: 2
+  Ribombee: 2
+  Rillaboom: 2
+  Riolu: 2
+  Roaring Moon: 2
+  Rockruff: 2
+  Roggenrola: 2
+  Rolycoly: 2
+  Rookidee: 2
+  Roselia: 2
+  Roserade: 2
+  Rotom: 2
+  Rotom (Fan Rotom): 2
+  Rotom (Frost Rotom): 2
+  Rotom (Heat Rotom): 2
+  Rotom (Mow Rotom): 2
+  Rotom (Wash Rotom): 2
+  Rowlet: 2
+  Rufflet: 2
+  Runerigus: 2
+  Sableye: 2
+  Salamence: 2
+  Salandit: 2
+  Salazzle: 2
+  Samurott: 2
+  Sandaconda: 2
+  Sandile: 2
+  Sandshrew: 2
+  Sandslash: 2
+  Sandy Shocks: 2
+  Sandygast: 2
+  Sawk: 2
+  Sawsbuck: 2
+  Scatterbug: 2
+  Sceptile: 2
+  Scizor: 2
+  Scolipede: 2
+  Scorbunny: 2
+  Scovillain: 2
+  Scrafty: 2
+  Scraggy: 2
+  Scream Tail: 2
+  Scyther: 2
+  Seadra: 2
+  Seaking: 2
+  Sealeo: 2
+  Seedot: 2
+  Seel: 2
+  Seismitoad: 2
+  Sentret: 2
+  Serperior: 2
+  Servine: 2
+  Seviper: 2
+  Sewaddle: 2
+  Sharpedo: 2
+  Shaymin (Land Forme): 2
+  Shaymin (Sky Forme): 2
+  Shedinja: 2
+  Shelgon: 2
+  Shellder: 2
+  Shellos: 2
+  Shelmet: 2
+  Shieldon: 2
+  Shiftry: 2
+  Shiinotic: 2
+  Shinx: 2
+  Shroodle: 2
+  Shroomish: 2
+  Shuckle: 2
+  Shuppet: 2
+  Sigilyph: 2
+  Silcoon: 2
+  Silicobra: 2
+  Silvally: 2
+  Simipour: 2
+  Simisage: 2
+  Simisear: 2
+  Sinistea: 2
+  Sirfetch_d: 2
+  Sizzlipede: 2
+  Skarmory: 2
+  Skeledirge: 2
+  Skiddo: 2
+  Skiploom: 2
+  Skitty: 2
+  Skorupi: 2
+  Skrelp: 2
+  Skuntank: 2
+  Skwovet: 2
+  Slaking: 2
+  Slakoth: 2
+  Sliggoo: 2
+  Slither Wing: 2
+  Slowbro: 2
+  Slowking: 2
+  Slowpoke: 2
+  Slugma: 2
+  Slurpuff: 2
+  Smeargle: 2
+  Smoliv: 2
+  Smoochum: 2
+  Sneasel: 2
+  Sneasler: 2
+  Snivy: 2
+  Snom: 2
+  Snorlax: 2
+  Snorunt: 2
+  Snover: 2
+  Snubbull: 2
+  Sobble: 2
+  Solgaleo: 2
+  Solosis: 2
+  Solrock: 2
+  Spearow: 2
+  Spectrier: 2
+  Spewpa: 2
+  Spheal: 2
+  Spidops: 2
+  Spinarak: 2
+  Spinda: 2
+  Spiritomb: 2
+  Spoink: 2
+  Sprigatito: 2
+  Spritzee: 2
+  Squawkabilly (Green Plumage): 2
+  Squirtle: 2
+  Stakataka: 2
+  Stantler: 2
+  Staraptor: 2
+  Staravia: 2
+  Starly: 2
+  Starmie: 2
+  Staryu: 2
+  Steelix: 2
+  Steenee: 2
+  Stonjourner: 2
+  Stoutland: 2
+  Stufful: 2
+  Stunfisk: 2
+  Stunky: 2
+  Sudowoodo: 2
+  Suicune: 2
+  Sunflora: 2
+  Sunkern: 2
+  Surskit: 2
+  Swablu: 2
+  Swadloon: 2
+  Swalot: 2
+  Swampert: 2
+  Swanna: 2
+  Swellow: 2
+  Swinub: 2
+  Swirlix: 2
+  Swoobat: 2
+  Sylveon: 2
+  Tadbulb: 2
+  Taillow: 2
+  Talonflame: 2
+  Tandemaus: 2
+  Tangela: 2
+  Tangrowth: 2
+  Tapu Bulu: 2
+  Tapu Fini: 2
+  Tapu Koko: 2
+  Tapu Lele: 2
+  Tarountula: 2
+  Tatsugiri (Curly Form): 2
+  Tatsugiri (Droopy Form): 2
+  Tatsugiri (Stretchy Form): 2
+  Tauros: 2
+  Tauros (Aqua Breed): 2
+  Tauros (Blaze Breed): 2
+  Tauros (Combat Breed): 2
+  Teddiursa: 2
+  Tentacool: 2
+  Tentacruel: 2
+  Tepig: 2
+  Terapagos (Normal Form): 2
+  Terapagos (Terastal Form): 2
+  Terrakion: 2
+  Thievul: 2
+  Throh: 2
+  Thundurus (Incarnate Forme): 2
+  Thundurus (Therian Forme): 2
+  Thwackey: 2
+  Timburr: 2
+  Ting-Lu: 2
+  Tinkatink: 2
+  Tinkaton: 2
+  Tinkatuff: 2
+  Tirtouga: 2
+  Toedscool: 2
+  Toedscruel: 2
+  Togedemaru: 2
+  Togekiss: 2
+  Togepi: 2
+  Togetic: 2
+  Torchic: 2
+  Torkoal: 2
+  Tornadus (Incarnate Forme): 2
+  Tornadus (Therian Forme): 2
+  Torracat: 2
+  Torterra: 2
+  Totodile: 2
+  Toucannon: 2
+  Toxapex: 2
+  Toxel: 2
+  Toxicroak: 2
+  Toxtricity (Amped Form): 2
+  Toxtricity (Low Key Form): 2
+  Tranquill: 2
+  Trapinch: 2
+  Treecko: 2
+  Trevenant: 2
+  Tropius: 2
+  Trubbish: 2
+  Trumbeak: 2
+  Tsareena: 2
+  Turtonator: 2
+  Turtwig: 2
+  Tympole: 2
+  Tynamo: 2
+  Typhlosion: 2
+  Tyranitar: 2
+  Tyrantrum: 2
+  Tyrogue: 2
+  Tyrunt: 2
+  Umbreon: 2
+  Unfezant: 2
+  Unown: 2
+  Ursaluna: 2
+  Ursaring: 2
+  Urshifu (Rapid Strike Style): 2
+  Urshifu (Single Strike Style): 2
+  Uxie: 2
+  Vanillish: 2
+  Vanillite: 2
+  Vanilluxe: 2
+  Vaporeon: 2
+  Varoom: 2
+  Veluza: 2
+  Venipede: 2
+  Venomoth: 2
+  Venonat: 2
+  Venusaur: 2
+  Vespiquen: 2
+  Vibrava: 2
+  Victini: 2
+  Victreebel: 2
+  Vigoroth: 2
+  Vikavolt: 2
+  Vileplume: 2
+  Virizion: 2
+  Vivillon: 2
+  Volbeat: 2
+  Volcanion: 2
+  Volcarona: 2
+  Voltorb: 2
+  Vullaby: 2
+  Vulpix: 2
+  Wailmer: 2
+  Wailord: 2
+  Walking Wake: 2
+  Walrein: 2
+  Wartortle: 2
+  Watchog: 2
+  Wattrel: 2
+  Weavile: 2
+  Weedle: 2
+  Weepinbell: 2
+  Weezing: 2
+  Whimsicott: 2
+  Whirlipede: 2
+  Whiscash: 2
+  Whismur: 2
+  Wigglytuff: 2
+  Wiglett: 2
+  Wimpod: 2
+  Wingull: 2
+  Wishiwashi (School Form): 2
+  Wishiwashi (Solo Form): 2
+  Wo-Chien: 2
+  Wobbuffet: 2
+  Woobat: 2
+  Wooloo: 2
+  Wooper: 2
+  Wormadam (Plant Cloak): 2
+  Wormadam (Sandy Cloak): 2
+  Wormadam (Trash Cloak): 2
+  Wugtrio: 2
+  Wurmple: 2
+  Wynaut: 2
+  Wyrdeer: 2
+  Xatu: 2
+  Xerneas: 2
+  Xurkitree: 2
+  Yamask: 2
+  Yamper: 2
+  Yanma: 2
+  Yanmega: 2
+  Yungoos: 2
+  Yveltal: 2
+  Zacian (Crowned Sword): 2
+  Zacian (Hero of Many Battles): 2
+  Zamazenta (Crowned Shield): 2
+  Zamazenta (Hero of Many Battles): 2
+  Zangoose: 2
+  Zapdos: 2
+  Zarude: 2
+  Zebstrika: 2
+  Zekrom: 2
+  Zeraora: 2
+  Zigzagoon: 2
+  Zoroark: 2
+  Zorua: 2
+  Zubat: 2
+  Zweilous: 2
+  Zygarde (10% Forme): 2
+  Zygarde (50% Forme): 2
+  Zygarde (Complete Forme): 2

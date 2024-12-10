@@ -1,22 +1,25 @@
-Total number of Pokémon: 2430
+#### Analysis of Pokémon Dataset ####
+
+Total number of Pokémon: 1336
+
 
 Number of Pokémon by Type 1:
 
-Water: 300
-Normal: 268
-Grass: 226
-Bug: 182
-Psychic: 164
-Fire: 152
-Electric: 148
-Rock: 136
-Dark: 112
-Fighting: 100
-Dragon: 98
-Poison: 98
-Ground: 94
-Ghost: 94
-Steel: 90
-Ice: 86
-Fairy: 62
-Flying: 20
+  Water: 150
+  Normal: 134
+  Grass: 113
+  Bug: 91
+  Psychic: 82
+  Fire: 76
+  Electric: 74
+  Rock: 68
+  Dark: 56
+  Fighting: 50
+  Dragon: 49
+  Poison: 49
+  Ground: 47
+  Ghost: 47
+  Steel: 45
+  Ice: 43
+  Fairy: 31
+  Flying: 10

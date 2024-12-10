@@ -88,7 +88,6 @@ def preprocess_image_knn(train_path: str, val_path: str, test_path: str, image_s
     print("Label encoding complete.")
     return X_train, y_train_encoded, X_val, y_val_encoded, X_test, y_test_encoded, label_encoder
 
-
 def train_image_knn(X_train, y_train_encoded, X_val, y_val_encoded, k=3, sweep=False, patience=3):
     """
     Train a K-Nearest Neighbors (KNN) classifier for image classification.
@@ -163,7 +162,6 @@ def train_image_knn(X_train, y_train_encoded, X_val, y_val_encoded, k=3, sweep=F
     print(f"Validation accuracy with fixed k={k}: {val_accuracy:.4f}")
     return knn, k, val_accuracy, [k], [val_accuracy]
 
-
 def eval_image_knn(model, k, X_test, y_test_encoded, label_encoder):
     """
     Evaluate a K-Nearest Neighbors (KNN) classifier on test datasets.
@@ -179,7 +177,6 @@ def eval_image_knn(model, k, X_test, y_test_encoded, label_encoder):
     test_accuracy = accuracy_score(y_test_encoded, y_test_pred)
     print(f"Test Accuracy of KNN with k={k}: {test_accuracy * 100:.2f}%")
 
-
 # ------------------------------------------------------------------------------------- #
 # Main
 # ------------------------------------------------------------------------------------- #
@@ -187,10 +184,10 @@ def eval_image_knn(model, k, X_test, y_test_encoded, label_encoder):
 if __name__ == "__main__":
     # Parameters
     k = 1
-    train_path = "data/combined_by_type1/train"
-    val_path = "data/combined_by_type1/val"
-    test_path = "data/combined_by_type1/test"
-    convert_to_grayscale = False
+    train_path = "data\merged_pokemon_by_type1/train"
+    val_path = "data\merged_pokemon_by_type1/val"
+    test_path = "data\merged_pokemon_by_type1/test"
+    convert_to_grayscale = True
     sweep = True
 
     # Preprocess the images
@@ -208,3 +205,4 @@ if __name__ == "__main__":
     # Evaluate the model
     eval_image_knn(model, best_k, X_test, y_test, label_encoder)
     print("KNN model evaluation complete.")
+    

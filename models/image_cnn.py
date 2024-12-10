@@ -140,9 +140,9 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Paths to datasets
-    train_path = "data/combined_by_type1/train"
-    val_path = "data/combined_by_type1/val"
-    test_path = "data/combined_by_type1/test"
+    train_path = "data/merged_pokemon_by_type1/train"
+    val_path = "data/merged_pokemon_by_type1/val"
+    test_path = "data/merged_pokemon_by_type1/test"
 
     # Hyperparameters
     batch_size = 32
