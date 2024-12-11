@@ -62,7 +62,7 @@ class LeNet5(nn.Module):
     """
     LeNet-5 architecture with dynamic computation of the fully connected input size.
     """
-    def __init__(self, num_classes=10, input_size=(32, 32)):
+    def __init__(self, num_classes=18, input_size=(32, 32)):
         super(LeNet5, self).__init__()
         
         # Feature extractor

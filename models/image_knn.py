@@ -183,26 +183,28 @@ def eval_image_knn(model, k, X_test, y_test_encoded, label_encoder):
 
 if __name__ == "__main__":
     # Parameters
-    k = 1
-    train_path = "data\merged_pokemon_by_type1/train"
-    val_path = "data\merged_pokemon_by_type1/val"
-    test_path = "data\merged_pokemon_by_type1/test"
-    convert_to_grayscale = True
-    sweep = True
+    k_vals = [1, 3, 5, 7, 9, 11, 13, 15]
+    train_path = "data/merged_pokemon_by_type1/train"
+    val_path = "data/merged_pokemon_by_type1/val"
+    test_path = "data/merged_pokemon_by_type1/test"
+    convert_to_grayscale = False
+    sweep = False
+    image_size = (128, 128)
 
     # Preprocess the images
     X_train, y_train, X_val, y_val, X_test, y_test, label_encoder = preprocess_image_knn(
-        train_path, val_path, test_path, convert_to_grayscale=convert_to_grayscale
+        train_path, val_path, test_path, convert_to_grayscale=convert_to_grayscale, image_size=image_size
     )
     print("Data preprocessing complete.")
 
-    # Train the KNN model
-    model, best_k, _, _, _ = train_image_knn(
-        X_train, y_train, X_val, y_val, k=k, sweep=sweep
-    )
-    print("KNN model training complete.")
+    for k in k_vals:
+        # Train the KNN model
+        model, best_k, _, _, _ = train_image_knn(
+            X_train, y_train, X_val, y_val, k=k, sweep=sweep
+        )
+        print("KNN model training complete.")
 
-    # Evaluate the model
-    eval_image_knn(model, best_k, X_test, y_test, label_encoder)
-    print("KNN model evaluation complete.")
+        # Evaluate the model
+        eval_image_knn(model, best_k, X_test, y_test, label_encoder)
+        print("KNN model evaluation complete.")
     
